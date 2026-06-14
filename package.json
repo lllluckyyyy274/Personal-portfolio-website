@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-static-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static personal portfolio site with local optimization and audit scripts.",
+  "scripts": {
+    "serve": "node tools/serve-static.js",
+    "verify": "node tools/verify-http.js",
+    "verify:mobile": "node tools/verify-mobile.js",
+    "optimize": "node tools/optimize-html.js",
+    "webp": "node tools/apply-webp-references.js",
+    "audit": "node tools/audit-site.js"
+  }
+}
